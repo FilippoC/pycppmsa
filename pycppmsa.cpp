@@ -6,6 +6,7 @@ extern "C"
 static PyMethodDef python_methods[] =
         {
                 {"run", py_run, METH_VARARGS, "run"},
+                {NULL, NULL, 0, NULL}
         };
 
 static struct PyModuleDef cModPyDem =
