@@ -59,5 +59,5 @@ PyObject* py_run(PyObject*, PyObject* args)
     for (int i = 0 ; i < n_vertices ; ++i)
         output[i] = heads[i];
 
-    return Py_None;
+    Py_RETURN_NONE;
 }
